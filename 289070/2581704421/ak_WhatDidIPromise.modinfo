@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="dc3dfc0d-e4e9-450c-8716-99c4e748d5f2" version="1.10">
+	<Properties>
+		<Name>What Did I Promise?</Name>
+		<Description>Adds information on active promises to the Leaderhead tooltips on the Diplomacy Ribbon.</Description>
+		<Created>1629393277</Created>
+		<Teaser>If you always forget what you've promised to whom.</Teaser>
+		<Authors>Technoluddite</Authors>
+		<SpecialThanks></SpecialThanks>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<InGameActions>
+		<ImportFiles id="AKWDIP_IMPORTFILES_ICONS">
+			<Properties>
+				<LoadOrder>1</LoadOrder>
+			</Properties>
+			<Items>
+				<File>Textures/FontIcons_AKWDIP.dds</File>
+				<File>Textures/FontIcons_AKWDIP.xml</File>
+				<File>Textures/akwdip_notification_icons40.dds</File>
+				<File>Textures/akwdip_notification_icons100.dds</File>
+				<File>Textures/akwdip_topbar_icon.dds</File>
+				<File>Textures/Icons_AKWDIP.xml</File>
+				<File>Textures/UnitPanel_PromiseFrame.dds</File>
+			</Items>
+		</ImportFiles>
+		<UpdateIcons id="AKWDIP_ICONS">
+			<Properties>
+				<LoadOrder>1</LoadOrder>
+			</Properties>
+			<File>Textures/FontIcons_AKWDIP.xml</File>
+			<File>Textures/Icons_AKWDIP.xml</File>
+		</UpdateIcons>
+		<UpdateDatabase id="AKWDIP_Notifications">
+			<Properties>
+				<LoadOrder>1</LoadOrder>
+			</Properties>
+			<File>AKWDIP_Notifications.xml</File>
+		</UpdateDatabase>
+		<ImportFiles id="AKWDIP_IMPORTFILES_MAIN">
+			<Properties>
+				<LoadOrder>160000</LoadOrder>
+			</Properties>
+			<Items>
+				<File>Serialize.lua</File>
+				<File>AKWDIP_DefaultOptions.lua</File>
+				<File>AKWDIP_Common.lua</File>
+				<File>AKWDIP_DiplomacyRibbon.lua</File>
+				<File>AKWDIP_MinimapPanel.lua</File>
+				<File>AKWDIP_ModalLensPanel.lua</File>
+				<File>AKWDIP_TroopsPromiseLense.lua</File>
+			</Items>
+		</ImportFiles>
+		<AddUserInterfaces id="AKWDIP_Main">
+			<Properties>
+				<Context>InGame</Context>
+			</Properties>
+			<File>AKWDIP_Main.xml</File>
+		</AddUserInterfaces>
+		<!-- We work out which base files to use at run time, so we have to load last -->
+		<!-- Extended Diplomacy Ribbon has loadorder 13002, so we need to be after that -->
+		<!-- CQUI has loadorder 13013, so we need to be after that -->
+		<!-- Quick deals has loadorder 99999, so we need to be after that -->
+		<!-- HideStatsEvolved has loadorder 152100 so we need to be after that -->
+		<!-- to get the promise info -->
+		<!--
+		<ReplaceUIScript id="AKWDIP_DiplomacyActionView_lua">
+			<Properties>
+				<LoadOrder>160001</LoadOrder>
+				<LuaContext>DiplomacyActionView</LuaContext>
+				<LuaReplace>AKWDIP_DiplomacyActionView.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		-->
+		<!-- to display the leaderhead tooltips -->
+		<ReplaceUIScript id="AKWDIP_DiplomacyRibbon_lua">
+			<Properties>
+				<LoadOrder>160001</LoadOrder>
+				<LuaContext>DiplomacyRibbon</LuaContext>
+				<LuaReplace>AKWDIP_DiplomacyRibbon.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<!-- For lens modifications -->
+		<ReplaceUIScript id="AKWDIP_MinimapPanel_lua">
+			<Properties>
+				<LoadOrder>160001</LoadOrder>
+				<LuaContext>MinimapPanel</LuaContext>
+				<LuaReplace>AKWDIP_MinimapPanel.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>		
+		<!-- For lens key modifications -->
+		<ReplaceUIScript id="AKWDIP_ModalLensPanel_lua">
+			<Properties>
+				<LoadOrder>160001</LoadOrder>
+				<LuaContext>ModalLensPanel</LuaContext>
+				<LuaReplace>AKWDIP_ModalLensPanel.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<LocalizedText id="AKWDIP_UpdateText">
+			<Items>
+				<File>Text/AKWDIP_Text.xml</File>
+				<File>Text/AKWDIP_Text_es_ES.xml</File>
+				<File>Text/AKWDIP_Text_ko_KR.xml</File>
+			</Items>
+		</LocalizedText>
+    <AddUserInterfaces id="AKWDIP_WarningPopup_UI">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>AKWDIP_WarningPopup.xml</File>
+    </AddUserInterfaces>
+	</InGameActions>
+	<Files>
+		<File>Textures/akwdip_topbar_icon.dds</File>
+		<File>AKWDIP_Main.lua</File>
+		<File>AKWDIP_Main.xml</File>
+		<File>AKWDIP_Notifications.xml</File>
+		<File>AKWDIP_Common.lua</File>
+		<File>AKWDIP_DefaultOptions.lua</File>
+		<File>AKWDIP_TroopsPromiseLense.lua</File>
+		<File>AKWDIP_ModalLensPanel.lua</File>
+		<File>AKWDIP_MinimapPanel.lua</File>
+		<File>AKWDIP_WarningPopup.lua</File>
+		<File>AKWDIP_WarningPopup.xml</File>
+		<File>AKWDIP_DiplomacyRibbon.lua</File>
+		<File>Text/AKWDIP_Text.xml</File>
+		<File>Text/AKWDIP_Text_es_ES.xml</File>
+		<File>Text/AKWDIP_Text_ko_KR.xml</File>
+		<File>Serialize.lua</File>
+		<File>Textures/FontIcons_AKWDIP.xml</File>
+		<File>Textures/FontIcons_AKWDIP.dds</File>
+		<File>Textures/Icons_AKWDIP.xml</File>
+		<File>Textures/akwdip_notification_icons40.dds</File>
+		<File>Textures/akwdip_notification_icons100.dds</File>
+		<File>Textures/UnitPanel_PromiseFrame.dds</File>
+	</Files>
+</Mod>

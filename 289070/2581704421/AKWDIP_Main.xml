@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context FontStyle="Stroke">
+
+		<!-- Button on the top panel  -->
+		<Container ID="AKWDIP_TopBarButtonContainer" Size="48,auto" Anchor="R,T" Offset="0,0" ConsumeMouse="1">
+			<Button ID="AKWDIP_TopBarButton" Size="29,29" Anchor="C,C" Texture="akwdip_topbar_icon.dds" ToolTip="LOC_AKWDIP_TOPBARBUTTON_TT" ConsumeMouse="1">
+				<Label Offset="3,8" Style="TopBarMeta" String="LOC_AKWDIP_TOPBARBUTTON" />
+			</Button>
+		</Container>
+
+</Context>

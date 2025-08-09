@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+============= Instructions =========================================================================
+You can specify your own mod filters here to be used in Enhanced Mod Manager.
+
+1. First specify the number of filters you are adding:
+     <Row Tag="LOC_FF16_NUMOF_CUSTOM_FILTERS" Language="en_US">
+	    <Text>3</Text> 
+     </Row>
+
+2. Each filter should have a tag with the following name: 
+     - LOC_FF16_CUSTOM_FILTER_#
+   Where the # is the number of the filter:
+     - LOC_FF16_CUSTOM_FILTER_1, then LOC_FF16_CUSTOM_FILTER_2 and so on..
+
+3. On the first line of the <Text> tag set your filter name followed by a semi-colon:
+     - <Text>Test filter;
+ 
+4. The lines below should then be a list of mod ID's of the mods you want in the filter. You can 
+   find this in that mod's .modinfo file or on the mod details screen within Enhanced Mod Manager. 
+   Don't worry about spaces, they will be removed later. However you'll need to add a comma between 
+   each mod ID:
+ 
+   <Text>Test Filter;
+	  47dccacd-f1d0-4f25-bb02-deb2b528c833,
+	  9e9923e5-6842-4e7d-97e7-c9a56a85cf03,
+	  5fa339e0-1cef-4a63-abdb-549fadbd670d	  
+   </Text>
+   
+5. Save and if all is configured correctly your filters should be available. 
+=====================================================================================================
+-->
+
+<GameData>
+  <LocalizedText>
+	<!-- Set the value below to 1 or more to enable custom filter -->
+	<Row Tag="LOC_FF16_NUMOF_CUSTOM_FILTERS" Language="en_US">
+		<Text>1</Text> 
+	</Row>
+	
+	<!-- Filter 1 -->
+    <Row Tag="LOC_FF16_CUSTOM_FILTER_1" Language="en_US">
+      <Text>FinalFreak16's Mods;
+	  47dccacd-f1d0-4f25-bb02-deb2b528c833,
+	  9e9923e5-6842-4e7d-97e7-c9a56a85cf03,
+	  5fa339e0-1cef-4a63-abdb-549fadbd670d,
+	  2778f75d-9c72-4919-a081-620f6482f5d6,
+	  af0e9409-35b0-4cc8-8965-e2c844c99e3b,
+	  2eed71e9-0c3f-4916-b557-55197141be0d,
+	  158100a7-5ff0-4e47-bd6b-33bf8ee6bd3c,
+	  736a13ed-465a-4722-b759-873058c03763,
+	  05e672a2-4e14-4d0c-a804-dda6d66b7b82
+	  </Text>
+    </Row>
+	
+	<!-- Add more filters below --> 
+	
+	<!-- Filter 2 --> <!--
+	<Row Tag="LOC_FF16_CUSTOM_FILTER_2" Language="en_US">
+      <Text>Filter Name;
+	  ID1
+	  ID2	  
+	  </Text>
+    </Row>
+	-->
+	
+  </LocalizedText>
+</GameData>

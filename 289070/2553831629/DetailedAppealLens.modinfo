@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="969e373a-58ea-4ffd-9c6d-dbefffd6034c" version="1">
+  <Properties>
+    <Name>LOC_DETAILED_APPEAL_LENS_NAME</Name>
+    <Description>Detailed Appeal Lens</Description>
+    <Teaser>Detailed Appeal Lens</Teaser>
+    <Authors>DeepLogic</Authors>
+    <SpecialThanks>枫露之茗</SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_DETAILED_APPEAL_LENS_NAME">
+      <en_US>Detailed Appeal Lens</en_US>
+      <zh_Hans_CN>更详细的魅力滤镜</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <InGameActions>
+    <AddUserInterfaces id="DetailedAppealLens_xml">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>10000</LoadOrder>
+      </Properties>
+      <File>DetailedAppealLens.xml</File>
+    </AddUserInterfaces>
+    <ImportFiles id="DetailedAppealLens_lua">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>DetailedAppealLens.lua</File>
+    </ImportFiles>
+    <UpdateIcons id="DetailedAppealLens_Icons">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>Appeal_FontIcon.sql</File>
+    </UpdateIcons>
+    <ImportFiles id="DetailedAppealLens_dds">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>AppealFontIcon_22.dds</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>DetailedAppealLens.xml</File>
+    <File>DetailedAppealLens.lua</File>
+    <File>Appeal_FontIcon.sql</File>
+    <File>AppealFontIcon_22.dds</File>
+  </Files>
+</Mod>

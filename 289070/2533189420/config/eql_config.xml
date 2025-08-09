@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GameInfo>
+
+	<InputCategories>
+		<InsertOrIgnore CategoryId="EQL" Name="LOC_EQL_ENVOY_QUEST_LIST" Visible="1" SortIndex="0"/>
+	</InputCategories>
+
+	<InputActions>
+		<InsertOrIgnore ActionId="OpenList" Name="LOC_EQL_OPEN_QUEST_LIST_NAME" Description="LOC_EQL_OPEN_QUEST_LIST_DESCRIPTION" CategoryId="EQL" ContextId="World"/>
+	</InputActions>
+
+	<InputActionDefaultGestures>
+		<InsertOrIgnore ActionId="OpenList" Index="0" GestureType="KBMouse" GestureData="LOC_OPTIONS_KEY_SHIFT+LOC_OPTIONS_KEY_E"/>
+	</InputActionDefaultGestures>
+
+</GameInfo>

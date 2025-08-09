@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f4241649-094a-4789-8641-e642724df509" version="1">
+	<Properties>
+		<Name>Toggle Unit Lenses</Name>
+		<Description>This mod disables the auto-applied settler and religious unit lenses and allows to toggle those via a single hotkey.[NEWLINE][NEWLINE]The default hotkey is TAB, which can be changed in the Game Options (Key Bindings -> Lenses: -> Toggle Unit Lenses).</Description>
+		<Teaser>Allows to toggle unit specific lenses via a single hotkey.</Teaser>
+		<Authors>Faronizer</Authors>
+        <AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	
+	<FrontEndActions>
+		<UpdateDatabase id="ToggleUnitLensesHotkey">
+			<File>ToggleUnitLensesHotkey.xml</File>
+		</UpdateDatabase>
+	</FrontEndActions>
+	
+	<InGameActions>
+		<Properties>
+			<LoadOrder>10000</LoadOrder>
+		</Properties>
+		<ImportFiles id="ToggleUnitLensesSelectedUnit">
+			<Items>
+				<File>SelectedUnit.lua</File>
+			</Items>
+		</ImportFiles>
+		<AddUserInterfaces id="ToggleUnitLenses">
+		  <Properties>
+			<Context>InGame</Context>
+		  </Properties>
+		  <File>ToggleUnitLenses.xml</File>
+		</AddUserInterfaces>
+	</InGameActions>
+
+	<Files>
+		<File>SelectedUnit.lua</File>
+		<File>ToggleUnitLenses.lua</File>
+		<File>ToggleUnitLenses.xml</File>
+		<File>ToggleUnitLensesHotkey.xml</File>
+	</Files>
+
+</Mod>

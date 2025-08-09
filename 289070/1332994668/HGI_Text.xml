@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_HGI_HAPPINESS" Language="en_US">
+			<Text>Happiness of your Cities[newline](caused by [ICON_AMENITIES] Amenities)[newline][newline]Ecstatic Cities: {1}[newline]Happy Cities: {2}[newline]Content Cities: {3}[newline]Displeased or Unhappy Cities: {4}[newline]Cities in Unrest or Revolt: {5}</Text>
+		</Row>
+		<Row Tag="LOC_HGI_GROWTH" Language="en_US">
+			<Text>Growth of your Cities[newline](caused by [ICON_HOUSING] Housing)[newline][newline]Cities with Normal Growth: {1}[newline]Cities with Slowed Growth: {2}[newline]Cities with Halted Growth[newline](including Occupied Cities): {3}</Text>
+		</Row>
+		<Row Tag="LOC_HGI_SPIES" Language="en_US">
+			<Text>Spies: {1}[newline]Spy capacity: {2}[newline][newline]Civics are the primary source[newline]of Spy capacity.</Text>
+		</Row>
+		<Row Tag="LOC_HGI_LUXURY_RESOURCES" Language="en_US">
+			<Text>Types of Luxury Resources: {1}[newline]Luxury Resources Total: {2}</Text>
+		</Row>
+		<Replace Tag="LOC_ESPIONAGEOVERVIEW_OPERATIVES_HEADER" Language="en_US">
+			<Text>Spies</Text>
+		</Replace>
+		<Replace Tag="LOC_ESPIONAGEOVERVIEW_OPERATIVES_SUBHEADER" Language="en_US">
+			<Text>SPIES ({1_NumberOfSpies}/{2_SpyCapacity})</Text>
+		</Replace>
+		<Row Tag="LOC_HGI_HAPPINESS" Language="de_DE">
+			<Text>Zufriedenheit eurer Städte[newline](verursacht durch [ICON_AMENITIES] Annehmlichkeiten)[newline][newline]Begeisterte Städte: {1}[newline]Glückliche Städte: {2}[newline]Zufriedene Städte: {3}[newline]Unzufriedene oder unglückliche Städte: {4}[newline]Städte in Unruhe oder Aufruhr: {5}</Text>
+		</Row>
+		<Row Tag="LOC_HGI_GROWTH" Language="de_DE">
+			<Text>Wachstum eurer Städte[newline](verursacht durch [ICON_HOUSING] Wohnraum)[newline][newline]Städte mit normaler Wachstumsrate: {1}[newline]Städte mit gesenkter Wachstumsrate: {2}[newline]Stagnierende Städte[newline](einschließlich besetzter Städte): {3}</Text>
+		</Row>
+		<Row Tag="LOC_HGI_SPIES" Language="de_DE">
+			<Text>Spione: {1}[newline]Kapazität für Spione: {2}[newline][newline]Ausrichtungen sind die wichtigste Quelle[newline]der Kapazität für Spione.</Text>
+		</Row>
+		<Row Tag="LOC_HGI_LUXURY_RESOURCES" Language="de_DE">
+			<Text>Arten von Luxusgütern: {1}[newline]Luxusgüter gesamt: {2}</Text>
+		</Row>
+		<Replace Tag="LOC_ESPIONAGEOVERVIEW_OPERATIVES_HEADER" Language="de_DE">
+			<Text>Spione</Text>
+		</Replace>
+		<Replace Tag="LOC_ESPIONAGEOVERVIEW_OPERATIVES_SUBHEADER" Language="de_DE">
+			<Text>SPIONE ({1_NumberOfSpies}/{2_SpyCapacity})</Text>
+		</Replace>
+		<!-- Bugfix: The terms "Displeased" and "Unhappy" were both translated into German as "Unzufrieden" -->
+		<Replace Tag="LOC_HAPPINESS_UNHAPPY_NAME" Language="de_DE">
+			<Text>Unglücklich</Text> 
+		</Replace>
+	</LocalizedText>
+</GameData>

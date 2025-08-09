@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="47dccacd-f1d0-4f25-bb02-deb2b528c833" version="1">
+	<Properties>
+		<Name>Enhanced Mod Manager</Name>
+		<Description>LOC_DESCRIPTION</Description>
+		<Teaser>LOC_TEASER</Teaser>
+		<Authors>FinalFreak16</Authors>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<SupportsSinglePlayer>0</SupportsSinglePlayer>
+		<SupportsMultiplayer>0</SupportsMultiplayer>
+		<SupportsHotSeat>0</SupportsHotSeat>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+		<SubscriptionID>1601259406</SubscriptionID>
+	</Properties>
+		
+	<FrontEndActions>
+		<ImportFiles id="ImportFiles">
+			<Properties>
+				<LoadOrder>9999</LoadOrder>
+			</Properties>
+			<File>UI/mods.lua</File>
+			<File>UI/mods.xml</File>
+			<File>UI/FF16_Cosmetic_50.dds</File>
+			<File>UI/FF16_Gameplay_50.dds</File>
+			<File>UI/FF16_Folder_32.dds</File>
+		</ImportFiles>
+		<UpdateText id="UpdateText">
+			<File>localisation.sql</File>
+			<File>CustomFilters.xml</File>
+		</UpdateText>
+	</FrontEndActions>
+
+	<LocalizedText>
+		<Text id="LOC_DESCRIPTION">
+			<en_US>
+				This mod overhauls the mod manager screen.[NEWLINE][NEWLINE]The mod list is split between disabled and enabled mods making it easy to see which mods are active. It also includes a number of enhancements to the filtering and search options:[NEWLINE][NEWLINE]- Right Click Enable/Disable Mod[NEWLINE]- Hold shift to select multiple mods at once[NEWLINE]- Filter out mods that affect save games[NEWLINE]- Sort by Author[NEWLINE]- Sort by Dependency[NEWLINE]- Sort by Update Time[NEWLINE]- Search by Name, Teaser or Author[NEWLINE]- Export MOD ID's to create custom filters.
+			</en_US>
+			<zh_Hans_CN>
+				这个MOD彻底重做了MOD管理界面。[NEWLINE][NEWLINE]本MOD把已经启用的MOD和已经禁用的MOD分成两个部分，方便玩家管理，并且添加了一些增强的过滤和搜索功能。[NEWLINE][NEWLINE]- 右键启用/禁用MOD[NEWLINE]- 按住Shift一次选中多个MOD。[NEWLINE]- 过滤影响存档的MOD[NEWLINE]- 按照作者排序[NEWLINE]- 按照关联排序[NEWLINE]- 依照标题、描述或者作者来搜索MOD
+			</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_TEASER">
+			<en_US>
+				Overhaul of the mod manager screen by FinalFreak16
+			</en_US>
+			<zh_Hans_CN>
+				加强版MOD管理器 - 作者：FinalFreak16
+			</zh_Hans_CN>
+		</Text>
+	</LocalizedText>
+
+	<Files>
+		<File>localisation.sql</File>
+		<File>CustomFilters.xml</File>
+		<File>UI/mods.lua</File>
+		<File>UI/mods.xml</File>
+		<File>UI/FF16_Cosmetic_50.dds</File>
+		<File>UI/FF16_Gameplay_50.dds</File>
+		<File>UI/FF16_Folder_32.dds</File>
+	</Files>
+</Mod>

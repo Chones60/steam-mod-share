@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconDefinitions>
+		<!-- ICON_ATLAS_NOTIFICATIONS[8] is the default Great Person icon (aka ICON_NOTIFICATION_CLAIM_GREAT_PERSON) -->
+		<Row Name="ICON_NOTIFICATION_OTHER_PLAYER_RECRUITED_GREATPERSON" Atlas="ICON_ATLAS_NOTIFICATIONS" Index="8" />
+	</IconDefinitions>
+</GameData>

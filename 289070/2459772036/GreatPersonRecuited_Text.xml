@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_NOTIFICATION_OTHER_PLAYER_RECRUITED_GREATPERSON_MESSAGE">
+			<Text>Great person recruited</Text>
+		</Row>
+		<Row Tag="LOC_NOTIFICATION_OTHER_PLAYER_RECRUITED_GREATPERSON_SUMMARY">
+			<Text>{1_recruiter} has recruited the {2_greatPersonType} {3_greatPersonName}</Text>
+		</Row>
+	</BaseGameText>
+	<!-- The localization is google-translated, might be wrong.
+	     We only added german to see if localization works :) -->
+	<LocalizedText>
+		<Replace Tag="LOC_NOTIFICATION_OTHER_PLAYER_RECRUITED_GREATPERSON_MESSAGE" Language="de_DE">
+			<Text>Große Persönlichkeit rekrutiert</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_OTHER_PLAYER_RECRUITED_GREATPERSON_SUMMARY" Language="de_DE">
+			<Text>{1_recruiter} hat den {2_greatPersonType} {3_greatPersonName} rekrutiert</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

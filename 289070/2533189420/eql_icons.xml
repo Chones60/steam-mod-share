@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameInfo>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_LAUNCHBUTTON_EQL" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="eql_launchbutton36.dds" />
+		<Row Name="ICON_ATLAS_TRADEROUTE_EQL" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="traderoute.dds" />
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LAUNCHBUTTON_EQL" Atlas="ICON_ATLAS_LAUNCHBUTTON_EQL" Index="0" />
+		<Row Name="ICON_TRADEROUTE_EQL" Atlas="ICON_ATLAS_TRADEROUTE_EQL" Index="0" />
+	</IconDefinitions>
+</GameInfo>

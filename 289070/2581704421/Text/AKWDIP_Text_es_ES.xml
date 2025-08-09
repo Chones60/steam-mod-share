@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+<LocalizedText>
+
+	<Replace Tag="LOC_AKWDIP_PROMISE_ACCPETED_HEADER" Text="Hemos prometido:" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_PROMISE_REFUSED_HEADER" Text="Hemos rechazado:" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_PROMISE_UNKNOWN_HEADER" Text="Nos han pedido:" Language="es_ES"/>
+
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_GREEN_DONT_SETTLE_NEAR_ME] No instalarse cerca ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_GREEN_DONT_DIG_UP_MY_ARTIFACTS] No desenterrar su historia ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_GREEN_DONT_SPY_ON_ME] Dejar de espiar ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_GREEN_KEEP_TROOPS_AWAY_FROM_ME] A fin de mantener a nuestras tropas alejadas ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_GREEN_DONT_CONVERT_MY_CITIES] Dejar de hacer proselitismo ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+
+	<Replace Tag="LOC_AKWDIP_REFUSED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_RED_DONT_SETTLE_NEAR_ME] No instalarse cerca ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_RED_DONT_DIG_UP_MY_ARTIFACTS] No desenterrar su historia ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_REFUSED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_RED_DONT_SPY_ON_ME] Dejar de espiar ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_RED_KEEP_TROOPS_AWAY_FROM_ME] A fin de mantener a nuestras tropas alejadas ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_REFUSED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_RED_DONT_CONVERT_MY_CITIES] Dejar de hacer proselitismo ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_BLUE_DONT_SETTLE_NEAR_ME] No instalarse cerca ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_BLUE_DONT_DIG_UP_MY_ARTIFACTS] No desenterrar su historia ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_BLUE_DONT_SPY_ON_ME] Dejar de espiar ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_BLUE_KEEP_TROOPS_AWAY_FROM_ME] A fin de mantener a nuestras tropas alejadas ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_BLUE_DONT_CONVERT_MY_CITIES] No hacer proselitismo ({1_turnsleft}[ICON_TURN])" Language="es_ES"/>
+
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_SETTLE_NEAR_ME_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_SETTLE_NEAR_ME] No instalarse cerca" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_DIG_UP_MY_ARTIFACTS] No desenterrar su historia" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_SPY_ON_ME_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_SPY_ON_ME] Deja de espiarlos" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME_NODATE" Text="[ICON_AKWDIP_BLUE_KEEP_TROOPS_AWAY_FROM_ME] A fin de mantener a nuestras tropas alejadas" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_CONVERT_MY_CITIES_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_CONVERT_MY_CITIES] No hacer proselitismo" Language="es_ES"/>
+
+	<Replace Tag="LOC_AKWDIP_HUD_SETTLEPROMISE_LENS_LEGEND" Text="Romperá una promesa" Language="es_ES"/>
+
+
+	<Replace Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS" Text="Promesas militares" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS_TOOLTIP" Text="Zonas destacadas Hemos prometido A fin de mantener a nuestras tropas alejadas de" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS_LEGEND" Text="Hemos prometido para moverme de aquí" Language="es_ES"/>
+
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_HEADER" Text="Diplomatic Briefing" Language="es_ES"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="Hemos prometido {1_civname} que no nos instalaremos cerca de ellos ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_SETTLE_NEAR_ME" Text="{1_civname} nos pidió que no nos instalemos cerca de ellos ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_SETTLE_NEAR_ME" Text="{1_civname} nos pidió que no nos instalemos cerca de ellos" Language="es_ES"/>
+										  
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="Hemos prometido {1_civname} que no excavaremos en sus tierras ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} nos pidió que no excavemos en sus tierras ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} nos pidió que no excavemos en sus tierras" Language="es_ES"/>
+										  
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_SPY_ON_ME" Text="Hemos prometido {1_civname} que ya no los espiaremos ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_SPY_ON_ME" Text="{1_civname} nos pidió que Deja de espiarlos({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_SPY_ON_ME" Text="{1_civname} nos pidió que Deja de espiarlos" Language="es_ES"/>
+										  
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="Hemos prometido {1_civname} que mantendremos nuestras tropas lejos de sus fronteras ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} nos pidió con el fin de mantener a nuestras tropas alejadas de sus fronteras ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} nos pidió al fin de mantener a nuestras tropas alejadas de sus fronteras" Language="es_ES"/>
+										  
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="Hemos prometido {1_civname} que no enviaremos a nuestros misioneros a sus ciudades ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_CONVERT_MY_CITIES" Text="{1_civname} nos pidió que no difundamos nuestra religión a su pueblo ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_CONVERT_MY_CITIES" Text="{1_civname} nos pidió que no difundamos nuestra religión a su pueblo" Language="es_ES"/>
+
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="Fundar una ciudad aquí romperá nuestra promesa de {1_civname} ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_SETTLE_NEAR_ME" Text="{1_civname} nos pidió que no nos instalemos aquí ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_SETTLE_NEAR_ME" Text="{1_civname} nos pidió que no nos instalemos aquí" Language="es_ES"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="excavar aquí significará romper nuestra promesa de {1_civname} ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} nos pidió que no se excava aquí ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} nos pidió que no se excava aquí" Language="es_ES"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_SPY_ON_ME" Text="Hemos prometido que ya no espiaremos {1_civname} ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_SPY_ON_ME" Text="{1_civname} nos pidió que Deje de espiarlos ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_SPY_ON_ME" Text="{1_civname} nos pidió que Deje de espiarlos" Language="es_ES"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_PAST" Text="{1_civname} pueden considerar que nuestra promesa de alejarse de sus fronteras ya está rota" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_NOW" Text="Debemos alejar algunas de nuestras tropas del {1_civadj} frontera INMEDIATAMENTE si no queremos romper nuestra promesa ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_IMMINENT" Text="Debemos alejar algunas de nuestras tropas del {1_civadj} frontera dentro de {3_turns}[ICON_TURN]o romperemos nuestra promesa ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="Hemos prometido {1_civname} que mantendremos nuestras tropas lejos de sus fronteras ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} nos pidió el fin de mantener a nuestras tropas alejadas desde aquí ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} nos pidió el fin de mantener a nuestras tropas alejadas desde aquí" Language="es_ES"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="Difundir nuestra religión aquí romperá nuestra promesa de {1_civname} ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_CONVERT_MY_CITIES" Text="{1_civname} nos pidió que no difundamos nuestra religión aquí ({2_turns}[ICON_TURN])" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_CONVERT_MY_CITIES" Text="{1_civname} nos pidió que no difundamos nuestra religión aquí" Language="es_ES"/>
+
+	<Replace Tag="LOC_AKWDIP_IMMINENT_DMZ_BREACH_NOTIFICATION_HEADER" Text="Inminente incumplimiento de la promesa de la DMZ" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_NOTIFICATION_DMZ_BREACH_IMMINENT_TEXT" Text="Incumpliremos nuestra promesa a {1_civname} a menos que retiremos algunas tropas en {2_turns}[ICON_TURN]¡turnos!" Language="es_ES"/> 
+	<Replace Tag="LOC_AKWDIP_NOTIFICATION_DMZ_BREACH_NOW_TEXT" Text="Incumpliremos nuestra promesa de {1_civname} ¡a menos que retiremos algunas tropas INMEDIATAMENTE!" Language="es_ES"/>
+
+	<Replace Tag="LOC_AKWDIP_TOPBARBUTTON" Text="" Language="es_ES"/>
+	<Replace Tag="LOC_AKWDIP_TOPBARBUTTON_TT" Text="¿Qué prometí como opciones?" Language="es_ES"/>
+
+</LocalizedText>
+
+</GameData>
+
+
+

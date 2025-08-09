@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+<LocalizedText>
+	<Replace Tag="LOC_AKWDIP_PROMISE_ACCPETED_HEADER" Text="우리가 약속한 것" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_PROMISE_REFUSED_HEADER" Text="우리가 거부한 것:" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_PROMISE_UNKNOWN_HEADER" Text="그들이 요청한 것:" Language="ko_KR"/>
+
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_GREEN_DONT_SETTLE_NEAR_ME] 근처에 정착하지 않기 ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_GREEN_DONT_DIG_UP_MY_ARTIFACTS] 그들의 땅을 파지 않기 ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_GREEN_DONT_SPY_ON_ME] 스파이 자제 ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_GREEN_KEEP_TROOPS_AWAY_FROM_ME] 우리 병력 철수 ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_GREEN_DONT_CONVERT_MY_CITIES] 개종 자제 ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+
+	<Replace Tag="LOC_AKWDIP_REFUSED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_RED_DONT_SETTLE_NEAR_ME] 근처에 정착하지 않기 ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_RED_DONT_DIG_UP_MY_ARTIFACTS] 그들의 땅을 파지 않기 ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_REFUSED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_RED_DONT_SPY_ON_ME] 스파이 자제 ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_RED_KEEP_TROOPS_AWAY_FROM_ME] 우리 병력 철수 ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_REFUSED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_RED_DONT_CONVERT_MY_CITIES] 개종 자제 ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_BLUE_DONT_SETTLE_NEAR_ME] 근처에 정착하지 않기  ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_BLUE_DONT_DIG_UP_MY_ARTIFACTS] 그들의 땅을 파지 않기 ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_BLUE_DONT_SPY_ON_ME] 스파이 자제 ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_BLUE_KEEP_TROOPS_AWAY_FROM_ME] 우리 병력 철수 ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_BLUE_DONT_CONVERT_MY_CITIES] 개종 자제 ({1_turnsleft}[ICON_TURN])" Language="ko_KR"/>
+
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_SETTLE_NEAR_ME_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_SETTLE_NEAR_ME] 근처에 정착하지 않기 " Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_DIG_UP_MY_ARTIFACTS] 그들의 땅을 파지 않기" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_SPY_ON_ME_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_SPY_ON_ME] 스파이 자제" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME_NODATE" Text="[ICON_AKWDIP_BLUE_KEEP_TROOPS_AWAY_FROM_ME] 우리 병력 철수" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_CONVERT_MY_CITIES_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_CONVERT_MY_CITIES] 개종 자제" Language="ko_KR"/>
+
+	<Replace Tag="LOC_AKWDIP_HUD_SETTLEPROMISE_LENS_LEGEND" Text="약속을 깨게 됨" Language="ko_KR"/>
+
+
+	<Replace Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS" Text="군사적 약속" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS_TOOLTIP" Text="표시된 영역은 병력을 철수하기로 한 곳" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS_LEGEND" Text="병력을 철수하기로 한 곳" Language="ko_KR"/>
+
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_HEADER" Text="외교 알림" Language="ko_KR"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="{1_civname} 근처에 정착하지 않기로 약속함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_SETTLE_NEAR_ME" Text="{1_civname}(이/가) 그들 근처에 정착하지 않을것을 요구함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_SETTLE_NEAR_ME" Text="{1_civname}(이/가) 그들 근처에 정착하지 않을것을 요구함" Language="ko_KR"/>
+										  
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname}의 땅에서 개종하지 않기로 약속함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname}(이/가) 자기땅에서 개종하지 말기를 요구함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname}(이/가) 자기땅에서 개종하지 말기를 요구함" Language="ko_KR"/>
+										  
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_SPY_ON_ME" Text="{1_civname}에게 스파이 활동을 하지 않기로 약속함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_SPY_ON_ME" Text="{1_civname}(이/가) 스파이 활동을 하지 말기를 요구함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_SPY_ON_ME" Text="{1_civname}(이/가) 스파이 활동을 하지 말기를 요구함" Language="ko_KR"/>
+										  
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname}의 국경에서 병력을 철수하기로 약속함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname}(이/가) 국경에서 병력을 철수하기로 요구함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname}(이/가) 국경에서 병력을 철수하기로 요구함" Language="ko_KR"/>
+										  
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="{1_civname}에게 선교사를 보내지 않기로 약속함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_CONVERT_MY_CITIES" Text="{1_civname}(이/가) 자기 국민들에게 종교를 퍼뜨리지 말기를 요구함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_CONVERT_MY_CITIES" Text="{1_civname}(이/가) 자기 국민들에게 종교를 퍼뜨리지 말기를 요구함" Language="ko_KR"/>
+
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="여기에 도시를 펴는것은 {1_civname}(와/과)의 약속을 깨게 됨 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_SETTLE_NEAR_ME" Text="{1_civname}(이/가) 여기에 정착하지 않을것을 요구함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_SETTLE_NEAR_ME" Text="{1_civname}(이/가) 여기에 정착하지 않을것을 요구함" Language="ko_KR"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="여기 땅을 파는 것은 {1_civname}(와/과)의 약속을 깨게 됨 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname}(은/는) 여기에서 땅을 파지 말기를 요구함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname}(은/는) 여기에서 땅을 파지 말기를 요구함" Language="ko_KR"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_SPY_ON_ME" Text="{1_civname}에게 스파이 활동을 하지 않기로 약속함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_SPY_ON_ME" Text="{1_civname}(은/는) 스파이 활동을 하지 말기를 요구함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_SPY_ON_ME" Text="{1_civname}(은/는) 스파이 활동을 하지 말기를 요구함" Language="ko_KR"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_PAST" Text="{1_civname}(은/는) 우리의 국경철수 약속이 이미 깨진것으로 생각할 수 있음" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_NOW" Text="즉시 {1_civadj} 국경에서 병력을 철수하지 않으면 약속을 깨게 됨 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_IMMINENT" Text="{3_turns}[ICON_TURN]턴 내에 {1_civadj} 국경에서 병력을 철수하지 않으면 약속을 깨게 됨 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname}의 국경에서 병력을 철수하기로 약속함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname}(이/가) 여기서 병력을 철수할 것을 요구함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname}(이/가) 여기서 병력을 철수할 것을 요구함" Language="ko_KR"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="여기에 종교를 퍼뜨리는 것은 {1_civname}(와/과)의 약속을 깨게 됨 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_CONVERT_MY_CITIES" Text="{1_civname}(은/는) 여기에 종교를 퍼뜨리지 않을 것을 요구함 ({2_turns}[ICON_TURN])" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_CONVERT_MY_CITIES" Text="{1_civname}(은/는) 여기에 종교를 퍼뜨리지 않을 것을 요구함" Language="ko_KR"/>
+
+	<Replace Tag="LOC_AKWDIP_IMMINENT_DMZ_BREACH_NOTIFICATION_HEADER" Text="임박한 DMZ 약속 위반" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_NOTIFICATION_DMZ_BREACH_IMMINENT_TEXT" Text="{2_turns}[ICON_TURN]턴 안에 병력을 철수하지 않으면 {1_civname}(와/과)의 약속을 위반하게 됨!" Language="ko_KR"/> 
+	<Replace Tag="LOC_AKWDIP_NOTIFICATION_DMZ_BREACH_NOW_TEXT" Text="지금 즉시 병력을 철수하지 않으면 {1_civname}(와/과)의 약속을 위반하게 됨!" Language="ko_KR"/>
+
+	<Replace Tag="LOC_AKWDIP_TOPBARBUTTON" Text="" Language="ko_KR"/>
+	<Replace Tag="LOC_AKWDIP_TOPBARBUTTON_TT" Text="What Did I Promise options" Language="ko_KR"/>
+</LocalizedText>
+
+</GameData>
+
+
+

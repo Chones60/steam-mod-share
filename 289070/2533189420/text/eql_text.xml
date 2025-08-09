@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <EnglishText>
+        <Row Tag="LOC_EQL_TRAIN_UNIT">
+            <Text>TRAIN UNIT</Text>
+        </Row>
+		<Row Tag="LOC_EQL_BUILD_DISTRICT">
+            <Text>BUILD DISTRICT</Text>
+        </Row>
+		<Row Tag="LOC_EQL_TRIGGER_EUREKA">
+            <Text>TRIGGER EUREKA</Text>
+        </Row>
+		<Row Tag="LOC_EQL_TRIGGER_INSPIRATION">
+            <Text>TRIGGER INSPIRATION</Text>
+        </Row>
+		<Row Tag="LOC_EQL_SEND_TRADE_ROUTE">
+            <Text>SEND TRADE ROUTE</Text>
+        </Row>
+		<Row Tag="LOC_EQL_RECRUIT_GREAT_PERSON">
+            <Text>RECRUIT GREAT PERSON</Text>
+        </Row>
+		<Row Tag="LOC_EQL_RELIGIOUS_CONVERSION">
+            <Text>RELIGIOUS CONVERSION</Text>
+        </Row>
+		<Row Tag="LOC_EQL_CLEAR_BARBARIAN_CAMP">
+            <Text>CLEAR BARBARIAN CAMP</Text>
+        </Row>
+		<Row Tag="LOC_EQL_ENVOY_QUESTS">
+            <Text>Envoy Quests</Text>
+        </Row>
+    </EnglishText>
+</GameData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<InputActions>	
+		<Row ActionId="ToggleUnitLense" Name="Toggle Unit Lense" Description="Toggle Unit Lense" CategoryId="LENSES" ContextId="World" />
+	</InputActions>
+	
+	<InputActionDefaultGestures>
+		<Row ActionId="ToggleUnitLense" Index="0" GestureType="KBMouse" GestureData="LOC_OPTIONS_KEY_TAB"/>
+	</InputActionDefaultGestures>
+</GameInfo>

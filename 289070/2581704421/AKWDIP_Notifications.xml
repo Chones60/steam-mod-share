@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+    <Types>
+        <Row Type="NOTIFICATION_AKWDIP_IMMINENT_DMZ_BREACH" Kind="KIND_NOTIFICATION"/>
+    </Types>
+    <Notifications>
+        <Row NotificationType="NOTIFICATION_AKWDIP_IMMINENT_DMZ_BREACH" SeverityType="HIGH" ExpiresEndOfTurn="true" AutoNotify="False" GroupType="USER"/>
+    </Notifications>
+</GameInfo>

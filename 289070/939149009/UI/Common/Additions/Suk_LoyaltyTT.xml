@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Context>
+		<ToolTipType Name="Suk_Loyalty_TT" >
+			<Grid ID="BG" SliceCorner="10,10" SliceTextureSize="33,32" Texture="Controls_Tooltip" Size="auto,auto" InnerPadding="25,25" InnerOffset="10,10" Color="255,255,255,255" Anchor="C,C">
+				<Stack StackGrowth="Down" Anchor="C,T">
+
+					<Label ID="RebelliomLabel" Anchor="C,T" Style="FontNormal16" Color="5,29,51,255" String="TEST..." Offset="0,5" WrapWidth="230"/>
+					<Label ID="StausLabel" Anchor="C,T" Style="TTText" String="" Offset="0,5" WrapWidth="230"/>
+					<Box Size="240,1" Anchor="C,T" Color="5,29,51,255" Offset="0,10"/>
+
+					<Stack Anchor="C,T" StackGrowth="Right" Padding="4" Offset="0,10">
+						<!-- Current Owner -->
+						<Image ID="CurrentOwnerFrame" Anchor="C,C"	Size="30,30"  Texture="Suk_SUA_LoyaltyIconBacking">
+							<Image ID="CurrentOwnerIcon" Anchor="C,C" Offset="0,0" Size="22,22" Texture="Religions22"/>
+						</Image>
+
+						<!-- Loyalty Bar -->
+						<Container ID="LoyaltyBar" Anchor="C,C" Size="150,22">
+							<Image Anchor="L,C" Size="parent,parent" Color="255,0,0,255" Texture="Suk_SUA_Identity_LoyaltyMeterBacking"/>
+							<Container Anchor="L,C" Size="140,10" Offset="6,0">
+								<TextureBar ID="LoyaltyFillA" Anchor="C,C" Size="parent,parent" Color="0,255,0,255" Texture="Suk_SUA_Identity_LoyaltyMeterFill"/>
+								<AlphaAnim ID="LoyaltyFillAlpha" Size="parent,parent" Anchor="C,C" AlphaBegin="1.0" AlphaEnd="0.0" Speed="1.5" Function="OutSine" Cycle="Bounce">
+									<TextureBar ID="LoyaltyFillB" Anchor="C,C" Size="parent,parent" Color="0,255,0,255" Texture="Suk_SUA_Identity_LoyaltyMeterFill"/>
+								</AlphaAnim>
+								<TextureBar ID="LoyaltyFillC" Anchor="C,C" Size="parent,parent" Color="0,255,0,255" Texture="Suk_SUA_Identity_LoyaltyMeterFill"/>
+								<Image ID="LoyaltyArrow" Anchor="L,C" Size="5,10" Color="255,0,0,255" Texture="Suk_SUA_Identity_LoyaltyMeterArrow" StretchMode="Fill"/>
+							</Container>
+						</Container>
+
+						<!-- Future Owner -->
+						<Image ID="FutureOwnerFrame" Anchor="C,C"	Size="30,30"  Texture="Suk_SUA_LoyaltyIconBacking">
+							<Image ID="FutureOwnerIcon" Anchor="C,C" Offset="0,0" Size="22,22" Texture="Religions22"/>
+						</Image>
+					</Stack>
+
+					<Label ID="LoyaltyPercentageLabel" Anchor="C,T"Style="TTText" String="TEST..." WrapWidth="230"/>
+
+					<Stack ID="LoyaltyPressure" StackGrowth="Down" Anchor="C,T">
+						<Box Size="240,1" Anchor="C,T" Color="5,29,51,255" Offset="0,10"/>
+						<Label Anchor="C,T" Style="FontNormal13" Color="5,29,51,255" String="{LOC_CULTURAL_IDENTITY_LOYALTY_LINE:upper}" Offset="0,10"/>
+						<Container Size="230,25" Anchor="C,T" Offset="0,5">
+							<Image Anchor="L,C" Offset="0,-2" Size="22,22" IconSize="22" Icon="ICON_STAT_GOVERNORS" Color="5,29,51,255"/>
+							<Label Anchor="L,C"Style="TTText" String="LOC_HUD_CITY_GOVERNOR" Offset="32,0"/>
+							<Stack Anchor="R,C" Offset="0,0" StackGrowth="Left">
+								<Label ID="GovernorsFontIcon" Style="TTText" String="[ICON_PressureUp]"/>
+								<Label ID="GovernorsValue" Style="TTText" String="8"/>
+							</Stack>
+							<Box Size="240,1" Anchor="C,B" Color="5,29,51,64"/>
+						</Container>
+						<Container ID="HappinessPressure" Size="230,25" Anchor="C,T">
+							<Image Anchor="L,C" Offset="0,-2" Size="22,22" IconSize="22" Icon="ICON_AMENITIES" Color="5,29,51,255"/>
+							<Label Anchor="L,C"Style="TTText" String="LOC_CULTURAL_IDENTITY_PER_TURN_HAPPINESS" Offset="32,0"/>
+							<Stack Anchor="R,C" Offset="0,0" StackGrowth="Left">
+								<Label ID="HappinessFontIcon" Style="TTText" String="[ICON_PressureUp]"/>
+								<Label ID="HappinessValue" Style="TTText" String="8"/>
+							</Stack>
+							<Box Size="240,1" Anchor="C,B" Color="5,29,51,64"/>
+						</Container>
+						<Container Size="230,25" Anchor="C,T">
+							<Image Anchor="L,C" Offset="0,-2" Size="22,22" IconSize="22" Icon="ICON_STAT_OTHERS" Color="5,29,51,255"/>
+							<Label Anchor="L,C"Style="TTText" String="LOC_CULTURAL_IDENTITY_PER_TURN_MODIFIERS" Offset="32,0"/>
+							<Stack Anchor="R,C" Offset="0,0" StackGrowth="Left">
+								<Label ID="OtherFontIcon" Style="TTText" String="[ICON_PressureUp]"/>
+								<Label ID="OtherValue" Style="TTText" String="8"/>
+							</Stack>
+							<Box Size="240,1" Anchor="C,B" Color="5,29,51,64"/>
+						</Container>
+						<Container ID="CityStateBonus" Size="230,25" Anchor="C,T">
+							<Image Anchor="L,C" Offset="0,-2" Size="22,22" IconSize="22" Icon="ICON_SUK_STAT_CITYSTATES" Color="5,29,51,255"/>
+							<Label Anchor="L,C"Style="TTText" String="LOC_CITY_STATES_CITY_STATE" Offset="32,0"/>
+							<Stack Anchor="R,C" Offset="0,0" StackGrowth="Left">
+								<Label ID="CityStateBonusFontIcon" Style="TTText" String="[ICON_PressureUp]"/>
+								<Label ID="CityStateBonusValue" Style="TTText" String="8"/>
+							</Stack>
+							<Box Size="240,1" Anchor="C,B" Color="5,29,51,64"/>
+						</Container>
+						<Container ID="FreeCityBonus" Size="230,25" Anchor="C,T">
+							<Image Anchor="L,C" Offset="0,-2" Size="22,22" IconSize="22" Icon="ICON_STAT_INDEPENCE" Color="5,29,51,255"/>
+							<Label Anchor="L,C"Style="TTText" String="LOC_CITY_BANNER_FREE_CITY_TT" Offset="32,0"/>
+							<Stack Anchor="R,C" Offset="0,0" StackGrowth="Left">
+								<Label ID="FreeCityBonusFontIcon" Style="TTText" String="[ICON_PressureUp]"/>
+								<Label ID="FreeCityBonusValue" Style="TTText" String="8"/>
+							</Stack>
+							<Box Size="240,1" Anchor="C,B" Color="5,29,51,64"/>
+						</Container>
+						<Container Size="230,25" Anchor="C,T">
+							<Image Anchor="L,C" Offset="0,-2" Size="22,22" IconSize="22" Icon="ICON_CITIZEN" Color="5,29,51,255"/>
+							<Label Anchor="L,C"Style="TTText" String="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_OWNED_CITIES" Offset="32,0"/>
+							<Stack Anchor="R,C" Offset="0,0" StackGrowth="Left">
+								<Label ID="PopulationPressureFontIcon" Style="TTText" String="[ICON_PressureUp]"/>
+								<Label ID="PopulationPressureValue" Style="TTText" String="8"/>
+							</Stack>
+						</Container>
+					</Stack>
+
+					<Stack ID="PopulationPressureStack" StackGrowth="Down" Anchor="C,T">
+						<Box Size="240,1" Anchor="C,T" Color="5,29,51,255" Offset="0,5"/>
+						<Label Anchor="C,T" Style="FontNormal13" Color="5,29,51,255" String="{LOC_SUK_LOYALTY_HEADER_TOOLTIP:upper}:" Offset="0,10" WrapWidth="230" Align="Center"/>
+						<Box ID="EntryDivider" Size="240,1" Anchor="C,B" Color="5,29,51,64" Offset="0,5"/>
+						<Stack ID="EntriesStack" StackGrowth="Down" Anchor="C,T"/>
+						<Container Size="230,36" Anchor="C,T" Offset="0,6">
+							<Stack Anchor="L,C" Offset="0,0" StackGrowth="Down">
+								<Label Anchor="L,C" Style="FontNormal13" Color="5,29,51,255" String="{LOC_SUK_LOYALTY_TOTAL_POPULATION_PRESSURE_TOOLTIP:upper}:"/>
+								<Label Anchor="L,C" Style="FontNormalMedium12" LeadingOffset="2" Color0="5,29,51,255" Color1="0,0,0,50" FontStyle="Shadow" String="LOC_SUK_LOYALTY_CAP_TOOLTIP"/>
+							</Stack>
+							<Stack Anchor="R,C" Offset="0,0" StackGrowth="Left">
+								<Label ID="TotalFontIcon" Style="TTText" String="[ICON_PressureUp]"/>
+								<Label ID="TotalValue" Style="TTText" String="8"/>
+							</Stack>
+						</Container>
+						<Box ID="EntryDivider" Size="240,1" Anchor="C,B" Color="5,29,51,255" Hidden="0" Offset="0,6"/>
+						<Label Anchor="C,T" Style="FontNormalMedium12" LeadingOffset="2" Color0="5,29,51,255" Color1="0,0,0,50" FontStyle="Shadow" String="LOC_SUK_LOYALTY_CAP_INFO_TOOLTIP" Offset="0,6" WrapWidth="230" Hidden="0"/>
+					</Stack>
+
+					<Box Size="10,3" Anchor="C,B" Color="0,0,0,0"/>
+				</Stack>
+			</Grid>
+		</ToolTipType>
+
+		<Instance Name="Suk_EntryInstance" >
+			<Container ID="BG" Size="230,25" Anchor="C,T">
+				<Image ID="EntryBacking" Texture="Suk_SUA_LoyaltyIconBackingB" Size="33,26" Anchor="L,C" Offset="-8,0"/>
+				<Image ID="EntryIcon" Anchor="L,C" Offset="-3,-1" Size="22,22" IconSize="22" Icon="ICON_STAT_INDEPENCE" Color="5,29,51,255"/>
+				<Label ID="EntryName" Anchor="L,C" Style="TTText" String="" Offset="32,0"/>
+				<Stack Anchor="R,C" Offset="0,0" StackGrowth="Left">
+					<Label ID="EntryFontIcon" Style="TTText" String="[ICON_PressureUp]"/>
+					<Label ID="EntryValue" Style="TTText" String="8"/>
+				</Stack>
+				<Box ID="EntryDivider" Size="240,1" Anchor="C,B" Color="5,29,51,64"/>
+			</Container>
+		</Instance>
+
+</Context>

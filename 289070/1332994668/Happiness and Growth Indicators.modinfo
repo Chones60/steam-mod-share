@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fba4a935-06f0-414b-973d-5ffcd80c6d0e" version="14">
+  <Properties>
+    <Name>Happiness and Growth Indicators</Name>
+    <Description>Adds indicators for happiness, growth, spies, and luxury resources to the Top Panel.[newline][newline]Works with Gathering Storm, Rise &amp; Fall and Vanilla. Supported languages: English, German.</Description>
+    <Teaser>Adds indicators for happiness, growth, spies, and luxury resources to the Top Panel.</Teaser>
+    <Authors>lockstep</Authors>
+    <SpecialThanks>Chrisy15, eudaimonia, HellBlazer</SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>2.0</CompatibleVersions>
+	<SubscriptionID>1332994668</SubscriptionID>
+	</Properties>
+  <InGameActions>
+	<!-- Common Files -->
+	<UpdateText id="HGI_UpdateText_COMMON">
+	  <File>HGI_Text.xml</File>
+    </UpdateText>
+	<!-- Files for Standard Ruleset -->
+	<ImportFiles id="HGI_ImportFiles_STANDARD">
+      <Properties>
+		<LoadOrder>101</LoadOrder>
+		<RuleSet>RULESET_STANDARD</RuleSet>
+	  </Properties>  
+      <File>TopPanel.xml</File>
+	  <File>Standard_or_Expansion_1/TopPanel.lua</File>
+    </ImportFiles>
+	<!-- Files for Expansion_1 Ruleset -->
+    <ImportFiles id="HGI_ImportFiles_EXPANSION_1">
+      <Properties>
+		<LoadOrder>101</LoadOrder>
+		<RuleSet>RULESET_EXPANSION_1</RuleSet>
+	  </Properties>  
+      <File>TopPanel.xml</File>
+	  <File>Standard_or_Expansion_1/TopPanel.lua</File>
+    </ImportFiles>
+	<!-- Files for Expansion_2 Ruleset -->
+    <ImportFiles id="HGI_ImportFiles_EXPANSION_2">
+      <Properties>
+		<LoadOrder>101</LoadOrder>
+		<RuleSet>RULESET_EXPANSION_2</RuleSet>
+	  </Properties>  
+      <File>TopPanel.xml</File>
+	  <File>Expansion_2/TopPanel.lua</File>
+ 	  <File>Expansion_2/TopPanel_Expansion2.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>HGI_Text.xml</File>
+    <File>TopPanel.xml</File>
+    <File>Standard_or_Expansion_1/TopPanel.lua</File>
+    <File>Expansion_2/TopPanel.lua</File>
+    <File>Expansion_2/TopPanel_Expansion2.lua</File>
+  </Files>
+</Mod>

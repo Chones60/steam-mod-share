@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="60A6CFAE-34CE-5D53-3640-15B122B9955B" version="1">
+	<Properties>
+		<Name>Better Leader Icon (UI)</Name>
+		<Description>Leader Icon with extended tooltips and relationship info.[NEWLINE][NEWLINE]Version 2.3.</Description>
+		<Teaser>Leader Icon with extended tooltips and relationship info.</Teaser>
+		<Authors>Infixo</Authors>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+		<SubscriptionID>1691629919</SubscriptionID>
+	</Properties>
+	<ActionCriteria>
+		<Criteria id="Expansion1">
+			<GameCoreInUse>Expansion1</GameCoreInUse>
+		</Criteria>
+		<Criteria id="Expansion2">
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+		</Criteria>
+	</ActionCriteria>
+	<InGameActions>
+		<UpdateDatabase id="BLI_Database">
+			<File>BetterLeaderIcon_Database.sql</File>
+		</UpdateDatabase>
+		<!-- base game -->
+		<ImportFiles id="BLI_Imports_Base">
+			<Properties><LoadOrder>500</LoadOrder></Properties>
+			<File>Base/leadericon.xml</File>
+			<File>Base/leadericon.lua</File>
+			<File>Base/diplomacyribbon.xml</File>
+			<File>Base/DiplomacyRibbon_BLI.lua</File>
+		</ImportFiles>
+		<ReplaceUIScript id="BLI_Replace_DiplomacyRibbon_Base">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+				<LuaContext>DiplomacyRibbon</LuaContext>
+				<LuaReplace>Base/DiplomacyRibbon_BLI.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<!-- Rise & Fall -->
+		<ImportFiles id="BLI_Imports_XP1" criteria="Expansion1">
+			<Properties><LoadOrder>510</LoadOrder></Properties>
+			<File>XP1/diplomacyribbon_expansion1.lua</File>
+			<File>XP1/DiplomacyActionView_Expansion1_BLI.lua</File>
+		</ImportFiles>
+		<ReplaceUIScript id="BLI_Replace_DiplomacyRibbon_XP1" criteria="Expansion1">
+			<Properties>
+				<LoadOrder>510</LoadOrder>
+				<LuaContext>DiplomacyRibbon</LuaContext>
+				<LuaReplace>XP1/diplomacyribbon_expansion1.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<ReplaceUIScript id="BLI_Replace_DiplomacyActionView_XP1" criteria="Expansion1">
+			<Properties>
+				<LoadOrder>510</LoadOrder>
+				<LuaContext>DiplomacyActionView</LuaContext>
+				<LuaReplace>XP1/DiplomacyActionView_Expansion1_BLI.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<!-- Gathering Storm -->
+		<ImportFiles id="BLI_Imports_XP2" criteria="Expansion2">
+			<Properties><LoadOrder>520</LoadOrder></Properties>
+			<File>XP2/diplomacyribbon.xml</File>
+			<File>XP1/diplomacyribbon_expansion1.lua</File>
+			<File>XP2/DiplomacyRibbon_Expansion2_BLI.lua</File>
+			<File>XP2/DiplomacyActionView_Expansion2_BLI.lua</File>
+		</ImportFiles>
+		<ReplaceUIScript id="BLI_Replace_DiplomacyRibbon_XP2" criteria="Expansion2">
+			<Properties>
+				<LoadOrder>520</LoadOrder>
+				<LuaContext>DiplomacyRibbon</LuaContext>
+				<LuaReplace>XP2/DiplomacyRibbon_Expansion2_BLI.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<ReplaceUIScript id="BLI_Replace_DiplomacyActionView_XP2" criteria="Expansion2">
+			<Properties>
+				<LoadOrder>520</LoadOrder>
+				<LuaContext>DiplomacyActionView</LuaContext>
+				<LuaReplace>XP2/DiplomacyActionView_Expansion2_BLI.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<!-- new font icons -->
+		<ImportFiles id="RMI_Imports">
+			<File>Icons/FontIconsRMI.dds</File>
+		</ImportFiles>
+		<UpdateIcons id="RMI_Icons">
+			<Properties><LoadOrder>1</LoadOrder></Properties>
+			<File>Icons/FontIconsRMI.xml</File>
+		</UpdateIcons>
+	</InGameActions>
+	<Files>
+		<File>BetterLeaderIcon_Database.sql</File>
+		<File>Base/leadericon.xml</File>
+		<File>Base/leadericon.lua</File>
+		<File>Base/diplomacyribbon.xml</File>
+		<File>Base/DiplomacyRibbon_BLI.lua</File>
+		<File>XP1/diplomacyribbon_expansion1.lua</File>
+		<File>XP1/DiplomacyActionView_Expansion1_BLI.lua</File>
+		<File>XP2/diplomacyribbon.xml</File>
+		<File>XP2/DiplomacyRibbon_Expansion2_BLI.lua</File>
+		<File>XP2/DiplomacyActionView_Expansion2_BLI.lua</File>
+		<!-- new font icons -->
+		<File>Icons/FontIconsRMI.dds</File>
+		<File>Icons/FontIconsRMI.xml</File>
+	</Files>
+</Mod>

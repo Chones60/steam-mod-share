@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_GREATWORKSVIEW_ORDER_BY_TYPE"     Language="en_US"> <Text>By Type</Text>                              </Row>
+    <Row Tag="LOC_GREATWORKSVIEW_ORDER_BY_TYPE_TT"  Language="en_US"> <Text>Switch to ordering by building type</Text>  </Row>
+    <Row Tag="LOC_GREATWORKSVIEW_ORIG_ORDER"        Language="en_US"> <Text>Original</Text>                             </Row>
+    <Row Tag="LOC_GREATWORKSVIEW_ORIG_ORDER_TT"     Language="en_US"> <Text>Switch to original order, by city</Text>    </Row>
+    <Row Tag="LOC_GREATWORKSVIEW_ALLOWY"            Language="en_US"> <Text>Allow Y</Text>                              </Row>
+    <Row Tag="LOC_GREATWORKSVIEW_ALLOWY_TT"         Language="en_US"> <Text>Allow window to expand vertically</Text>    </Row>
+    <Row Tag="LOC_GREATWORKSVIEW_DISALLOWY"         Language="en_US"> <Text>Disallow Y</Text>                           </Row>
+    <Row Tag="LOC_GREATWORKSVIEW_DISALLOWY_TT"      Language="en_US"> <Text>No vertical expansion</Text>                </Row>
+    <Row Tag="LOC_GREATWORKSVIEW_ART"               Language="en_US"> <Text>Art</Text>                                  </Row> 
+    <Row Tag="LOC_GREATWORKSVIEW_ART_TT"            Language="en_US"> <Text>Show locations with Art slots</Text>        </Row> 
+    <Row Tag="LOC_GREATWORKSVIEW_ARTIFACT"          Language="en_US"> <Text>Artifact</Text>                             </Row> 
+    <Row Tag="LOC_GREATWORKSVIEW_ARTIFACT_TT"       Language="en_US"> <Text>Show locations with Artifact slots</Text>   </Row> 
+    <Row Tag="LOC_GREATWORKSVIEW_MUSIC"             Language="en_US"> <Text>Music</Text>                                </Row> 
+    <Row Tag="LOC_GREATWORKSVIEW_MUSIC_TT"          Language="en_US"> <Text>Show locations with Music slots</Text>      </Row> 
+    <Row Tag="LOC_GREATWORKSVIEW_RELIC"             Language="en_US"> <Text>Relic</Text>                                </Row> 
+    <Row Tag="LOC_GREATWORKSVIEW_RELIC_TT"          Language="en_US"> <Text>Show locations with Relic slots</Text>      </Row> 
+    <Row Tag="LOC_GREATWORKSVIEW_WRITING"           Language="en_US"> <Text>Writing</Text>                              </Row> 
+    <Row Tag="LOC_GREATWORKSVIEW_WRITING_TT"        Language="en_US"> <Text>Show locations with Writing slots</Text>    </Row>
+    <Row Tag="LOC_GREATWORKSVIEW_HEROIC"            Language="en_US"> <Text>Heroic</Text>                               </Row> 
+    <Row Tag="LOC_GREATWORKSVIEW_HEROIC_TT"         Language="en_US"> <Text>Show locations with Heroic Relic slots</Text> </Row>
+    <Row Tag="LOC_GREATWORKSVIEW_PRODUCT"           Language="en_US"> <Text>Product</Text>                              </Row> 
+    <Row Tag="LOC_GREATWORKSVIEW_PRODUCT_TT"        Language="en_US"> <Text>Show locations with Product slots</Text>    </Row>
+    <Row Tag="LOC_CUI_GWV_THEMING_HELPER"           Language="en_US"> <Text>Theming</Text>                              </Row>
+    <Row Tag="LOC_CUI_GWV_THEMING_HELPER_TOOLTIP"   Language="en_US"> <Text>Pick three Great Works / Artifacts of the same color and different numbers to complete a theme.</Text>  </Row>
+  </LocalizedText>
+</GameData>

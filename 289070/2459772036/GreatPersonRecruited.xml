@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="NOTIFICATION_OTHER_PLAYER_RECRUITED_GREATPERSON" Kind="KIND_NOTIFICATION"/>
+	</Types>
+	<Notifications>
+		<Row NotificationType="NOTIFICATION_OTHER_PLAYER_RECRUITED_GREATPERSON"
+			 SeverityType="MID"
+			 ExpiresEndOfTurn="True"
+			 AutoNotify="False" />
+	</Notifications>
+</GameInfo>

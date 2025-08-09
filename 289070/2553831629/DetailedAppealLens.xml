@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Layer="DetailedAppealLens" >
+    <Container ID="PlotAppealContainer" />
+    <Instance Name="AppealInstance">
+        <WorldAnchor ID="Anchor" Anchor="C,C" Size="2,2">
+            <!-- <Grid ID="PlotAppeal" Anchor="C,C" Size="46,34" Style="DistrictBonusBack" Hidden="0">
+                <Label ID="BonusText"  Anchor="C,C" Offset="-1,-1" Style="YieldBonusText" String="?" />
+            </Grid> -->
+            <Stack ID="IconStack" Anchor="C,C" Size="100,50" Padding="1" StackGrowth="Right">
+                <Image ID="PrereqIcon" Anchor="C,C" Offset="0,0" Size="22,22" Icon="ICON_STAT_APPEAL" Hidden="1" />
+                <Grid ID="PlotBonus" Anchor="C,C" Size="56,34" Style="DistrictBonusBack" Hidden="1">
+                    <Label ID="BonusText" Anchor="C,C" Offset="-1,-1" Style="YieldBonusText" String="?"/>
+                </Grid>
+            </Stack>
+        </WorldAnchor>
+    </Instance>
+</Context>

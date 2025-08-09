@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+<LocalizedText>
+	<Row Tag="LOC_AKWDIP_PROMISE_ACCPETED_HEADER" Text="We have promised:" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_PROMISE_REFUSED_HEADER" Text="We have refused:" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_PROMISE_UNKNOWN_HEADER" Text="They have asked us:" Language="en_US"/>
+
+	<Row Tag="LOC_AKWDIP_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_GREEN_DONT_SETTLE_NEAR_ME] Not to settle nearby ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_GREEN_DONT_DIG_UP_MY_ARTIFACTS] Not to dig up their history ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_ACCEPTED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_GREEN_DONT_SPY_ON_ME] Cease spying ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_GREEN_KEEP_TROOPS_AWAY_FROM_ME] To keep our troops away ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_GREEN_DONT_CONVERT_MY_CITIES] To stop proselytizing ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+
+	<Row Tag="LOC_AKWDIP_REFUSED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_RED_DONT_SETTLE_NEAR_ME] Not to settle nearby ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_RED_DONT_DIG_UP_MY_ARTIFACTS] Not to dig up their history ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_REFUSED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_RED_DONT_SPY_ON_ME] Cease spying ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_RED_KEEP_TROOPS_AWAY_FROM_ME] To keep our troops away ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_REFUSED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_RED_DONT_CONVERT_MY_CITIES] To stop proselytizing ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+
+	<Row Tag="LOC_AKWDIP_REQUESTED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_BLUE_DONT_SETTLE_NEAR_ME] Not to settle nearby ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_BLUE_DONT_DIG_UP_MY_ARTIFACTS] Not to dig up their history ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_REQUESTED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_BLUE_DONT_SPY_ON_ME] Cease spying ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_BLUE_KEEP_TROOPS_AWAY_FROM_ME] To keep our troops away ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_REQUESTED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_BLUE_DONT_CONVERT_MY_CITIES] Not to proselytize ({1_turnsleft}[ICON_TURN])" Language="en_US"/>
+
+	<Row Tag="LOC_AKWDIP_REQUESTED_DONT_SETTLE_NEAR_ME_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_SETTLE_NEAR_ME] Not to settle nearby" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_DIG_UP_MY_ARTIFACTS] Not to dig up their history" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_REQUESTED_DONT_SPY_ON_ME_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_SPY_ON_ME] Stop spying on them" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME_NODATE" Text="[ICON_AKWDIP_BLUE_KEEP_TROOPS_AWAY_FROM_ME] To keep our troops away" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_REQUESTED_DONT_CONVERT_MY_CITIES_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_CONVERT_MY_CITIES] Not to proselytize" Language="en_US"/>
+
+	<Row Tag="LOC_AKWDIP_HUD_SETTLEPROMISE_LENS_LEGEND" Text="Will break a Promse" Language="en_US"/>
+
+
+	<Row Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS" Text="Military Promises" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS_TOOLTIP" Text="Highlights areas we have promised to keep our troops away from" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS_LEGEND" Text="We Have Promised to move from here" Language="en_US"/>
+
+
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_HEADER" Text="Diplomatic Briefing" Language="en_US"/>
+
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="We have promised {1_civname} that we will not settle near them ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_SETTLE_NEAR_ME" Text="{1_civname} has asked us not to settle near them ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_SETTLE_NEAR_ME" Text="{1_civname} has asked us not to settle near them" Language="en_US"/>
+										  
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="We have promised {1_civname} that we will not excavate in their lands ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} has asked us to not excavate in their lands ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} has asked us to not excavate in their lands" Language="en_US"/>
+										  
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_SPY_ON_ME" Text="We have promised {1_civname} that we will no longer spy on them ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_SPY_ON_ME" Text="{1_civname} has asked us to stop spying on them({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_SPY_ON_ME" Text="{1_civname} has asked us to stop spying on them" Language="en_US"/>
+										  
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="We have promised {1_civname} that we will keep our troops away from their borders ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} has asked us to keep our troops away from their borders ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} has asked us to keep our troops away from their borders" Language="en_US"/>
+										  
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="We have promised {1_civname} that we will not send our missionaries to their cities ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_CONVERT_MY_CITIES" Text="{1_civname} has asked us not to spread our religion to their people ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_CONVERT_MY_CITIES" Text="{1_civname} has asked us not to spread our religion to their people" Language="en_US"/>
+
+
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="Founding a city here will break our promise to {1_civname} ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_SETTLE_NEAR_ME" Text="{1_civname} has asked us not to settle here ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_SETTLE_NEAR_ME" Text="{1_civname} has asked us not to settle here" Language="en_US"/>
+
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="Excavating here will mean breaking our promise to {1_civname} ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} has asked us to not excavate here ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} has asked us to not excavate here" Language="en_US"/>
+
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_SPY_ON_ME" Text="We have promised that we will no longer spy on {1_civname} ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_SPY_ON_ME" Text="{1_civname} has asked us to stop spying on them ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_SPY_ON_ME" Text="{1_civname} has asked us to stop spying on them" Language="en_US"/>
+
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_PAST" Text="{1_civname} may view our promise to move stay away from their borders as already broken" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_NOW" Text="We must move some of our troops away from the {1_civadj} border IMMEDIATELY if we are not to break our promise ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_IMMINENT" Text="We must move some of our troops away from the {1_civadj} border within {3_turns}[ICON_TURN]turn or we will break our promise ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="We have promised {1_civname} that we will keep our troops away from their borders ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} has asked us to keep our troops away from here ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} has asked us to keep our troops away from here" Language="en_US"/>
+
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="Spreading our religion here will break our promise to {1_civname} ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_CONVERT_MY_CITIES" Text="{1_civname} has asked us not to spread our religion here ({2_turns}[ICON_TURN])" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_CONVERT_MY_CITIES" Text="{1_civname} has asked us not to spread our religion here" Language="en_US"/>
+
+	<Row Tag="LOC_AKWDIP_IMMINENT_DMZ_BREACH_NOTIFICATION_HEADER" Text="Imminent DMZ Promise Breach" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_NOTIFICATION_DMZ_BREACH_IMMINENT_TEXT" Text="We will breach our promise to {1_civname} unless we pull some troops back in {2_turns}[ICON_TURN]turns!" Language="en_US"/> 
+	<Row Tag="LOC_AKWDIP_NOTIFICATION_DMZ_BREACH_NOW_TEXT" Text="We will breach our promise to {1_civname} unless we pull some troops back IMMEDIATLEY!" Language="en_US"/>
+
+	<Row Tag="LOC_AKWDIP_TOPBARBUTTON" Text="" Language="en_US"/>
+	<Row Tag="LOC_AKWDIP_TOPBARBUTTON_TT" Text="What Did I Promise options" Language="en_US"/>
+</LocalizedText>
+
+</GameData>
+
+
+

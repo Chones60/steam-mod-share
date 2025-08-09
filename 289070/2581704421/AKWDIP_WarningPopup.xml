@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+  <AlphaAnim            ID="WarningPanelGridAlpha"       AlphaBegin="0" AlphaEnd="0.95" Speed="8"   Function="OutSine" Cycle="Once" Size="parent,parent">
+    <SlideAnim          ID="WarningPanelGridSlide"       Start="0,300" End="0,0"     Speed="5" Function="OutSine" Cycle="Once" Size="parent,parent">
+
+	<Grid ID="WarningPanelGrid" AnchorSide="I,O" Anchor="R,T" Offset="0,-1" Size="300,auto" AutoSizePadding="0,25" Texture="UnitPanel_PromiseFrame.dds"  SliceCorner="40,30" SliceSize="40,3" SliceTextureSize="184,63" ConsumeMouse="1" >
+		<Label ID="WarningHeader" String="{LOC_AKWDIP_UNITPANELWARNING_HEADER}" Anchor="C,T" Offset="0,8" Style="StrongSmall2" LeadingOffset="0" Color="200,200,210,255"  ConsumeMouse="1" />
+		<Label Hidden="1"  ID="TestLabelA" String="DumpData" Anchor="L,T" Offset="20,30" Style="FontNormal14" LeadingOffset="7" Color="200,200,200,255"  ConsumeMouse="1" />
+		<Label Hidden="1" ID="TestLabelB" String="7894" Anchor="R,T" Offset="20,30" Style="FontNormal14" LeadingOffset="7" Color="200,200,200,255"  ConsumeMouse="1" />
+
+		<Stack	ID="WarningsStack"	Offset="20,15" Size="parent-30, auto" StackGrowth="Down" />
+		<Grid AnchorSide="I,O" Anchor="R,B" Offset="0,0" Texture="SelectionPanel_TopRim" SliceTextureSize="14,5" SliceCorner="7,2" Size="parent,5"/>	
+	</Grid>
+
+	</SlideAnim>
+	</AlphaAnim>
+	
+	<Instance Name="WarningInstance">
+		<Container	ID="WarningContainer" Offset="0,8" Size="parent,auto" Padding="0,5" ConsumeMouse="1" >
+			<!--				<Box									Size="2,parent"	Color="46,70,95,255" /> -->
+			<GridButton ID="OwnerButton" Size="36,36" Anchor="L,C" Offset="0,0"  ConsumeMouse="1" >
+				<Image ID="CivIconBkg" Texture="CircleBacking36.dds"  Size="36,36" Anchor="L,C" Offset="0,0"  ConsumeMouse="1" />
+				<Image ID="CivIcon" Texture="CivSymbols36.dds" Size="36,36" Anchor="L,C" Offset="0,0"  ConsumeMouse="1" />
+				<Label ID="PromiseTypeFontIcon" String="X" Anchor="R,B" Offset="-5,-3" Style="FontNormal14" Color="200,200,200,255"  ConsumeMouse="1" />
+			</GridButton>
+			<Label ID="WarningMessage" String="7894" Anchor="L,C" Offset="50,0" WrapWidth="parent-55" Style="FontFlair14"  FontStyle="glow" Color="210,210,220,255"  ConsumeMouse="1" />
+
+		</Container>
+	</Instance>
+	
+	
+	
+</Context>

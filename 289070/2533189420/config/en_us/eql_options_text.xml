@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <EnglishText>
+		<Row Tag="LOC_EQL_ENVOY_QUEST_LIST">
+            <Text>Envoy Quest List</Text>
+        </Row>
+		<Row Tag="LOC_EQL_OPEN_QUEST_LIST_NAME">
+            <Text>Open Quest List</Text>
+        </Row>
+		<Row Tag="LOC_EQL_OPEN_QUEST_LIST_DESCRIPTION">
+            <Text>Open Quest List</Text>
+        </Row>
+	</EnglishText>
+</GameData>

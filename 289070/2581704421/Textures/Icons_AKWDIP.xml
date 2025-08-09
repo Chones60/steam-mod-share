@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameInfo>
+	<IconAtlases>
+		<Row Name="ICON_ATLAS_AKWDIP"/>
+	</IconAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_NOTIFICATION_AKWDIP_IMMINENT_DMZ_BREACH" Atlas="ICON_ATLAS_AKWDIP" Index="0"/>
+	</IconDefinitions>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_AKWDIP" IconSize="40" IconsPerRow="3" IconsPerColumn="3" Filename="akwdip_notification_icons40.dds"/>
+		<Row Name="ICON_ATLAS_AKWDIP" IconSize="100" IconsPerRow="3" IconsPerColumn="3" Filename="akwdip_notification_icons100.dds"/>
+	</IconTextureAtlases>
+</GameInfo>

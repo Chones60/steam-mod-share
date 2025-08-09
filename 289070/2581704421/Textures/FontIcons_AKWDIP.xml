@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameInfo>
+	<IconTextureAtlases>
+		<!-- Font Icons require special Baseline attribute (so keep separate) -->
+		<Replace Name="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Baseline="6" IconSize="22" IconsPerRow="4" IconsPerColumn="6" Filename="FontIcons_AKWDIP.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Replace Name="AKWDIP_GREEN_DONT_SETTLE_NEAR_ME"		Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="0"/>
+		<Replace Name="AKWDIP_GREEN_DONT_SPY_ON_ME"				Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="2"/>
+		<Replace Name="AKWDIP_GREEN_DONT_CONVERT_MY_CITIES"		Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="3"/>
+		<Replace Name="AKWDIP_GREEN_KEEP_TROOPS_AWAY_FROM_ME"	Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="4"/>
+		<Replace Name="AKWDIP_GREEN_DONT_DIG_UP_MY_ARTIFACTS"	Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="5"/>
+																											
+		<Replace Name="AKWDIP_RED_DONT_SETTLE_NEAR_ME"			Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="8"/>
+		<Replace Name="AKWDIP_RED_DONT_SPY_ON_ME"				Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="10"/>
+		<Replace Name="AKWDIP_RED_DONT_CONVERT_MY_CITIES"		Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="11"/>
+		<Replace Name="AKWDIP_RED_KEEP_TROOPS_AWAY_FROM_ME"     Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="12"/>
+		<Replace Name="AKWDIP_RED_DONT_DIG_UP_MY_ARTIFACTS"     Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="13"/>
+																											
+		<Replace Name="AKWDIP_BLUE_DONT_SETTLE_NEAR_ME"         Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="16"/>
+		<Replace Name="AKWDIP_BLUE_DONT_SPY_ON_ME"	            Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="18"/>
+		<Replace Name="AKWDIP_BLUE_DONT_CONVERT_MY_CITIES"      Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="19"/>
+		<Replace Name="AKWDIP_BLUE_KEEP_TROOPS_AWAY_FROM_ME"    Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="20"/>
+		<Replace Name="AKWDIP_BLUE_DONT_DIG_UP_MY_ARTIFACTS"    Atlas="ICON_ATLAS_FONT_ICON_AKWDIP_BASELINE_6" Index="21"/>
+	</IconDefinitions>
+</GameInfo>
